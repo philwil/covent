@@ -1,0 +1,17 @@
+First Ideas
+
+Need to control a servo motor to provide a pressure release cycle.
+Motor Speed and range of motion needs to be controlled.
+The code to run the Pololu V5C controller with ROS  is already to go. So its a good start.
+The motor controoler takes care of managing the encoder, limit switches , current , speed profile etc. 
+
+A simple unit may have a LCD display and a few control switches. Hence the need for GPIO , ADC, LCD modules.
+
+The initial unit could be powered by a 12 v sealed battery with other options being developed.
+
+The servo motor will have limit switches, an encoder and, possibly, an absolute position feedback.
+Dont know the requirements for teh servo motor yet.
+
+Using a PI provides a good base OS with wireless networks etc.
+
+
